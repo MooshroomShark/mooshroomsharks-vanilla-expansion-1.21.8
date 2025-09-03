@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "msexpansion",
+	"version": "1.0",
+	"name": "MooshroomShark's Vanilla Expansion",
+	"description": "This mod adds structures, nature, and crefting recipes using Vanilla blocks and mobs.",
+	"authors": [
+		"MooshroomShark"
+	],
+	"contact": {
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/msexpansion/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"mooshroomshark.msexpansion.MooshroomSharksVanillaExpansion"
+		],
+		"fabric-datagen": [
+			"mooshroomshark.msexpansion.MooshroomSharksVanillaExpansionDataGenerator"
+		]
+	},
+	"mixins": [
+		"msexpansion.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.8",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
