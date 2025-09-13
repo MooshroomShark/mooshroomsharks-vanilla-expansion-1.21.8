@@ -124,6 +124,65 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .criterion(hasItem(Items.GHAST_TEAR), conditionsFromItem(Items.GHAST_TEAR))
                         .offerTo(exporter);
 
+                createShaped(RecipeCategory.MISC, Items.HUSK_SPAWN_EGG)
+                        .pattern("#Z#")
+                        .pattern("SNS")
+                        .pattern("GGG")
+                        .input('#', Items.ROTTEN_FLESH)
+                        .input('Z', Items.ZOMBIE_HEAD)
+                        .input('N', Items.NETHER_STAR)
+                        .input('G', Items.GHAST_TEAR)
+                        .input('S', Items.SAND)
+                        .criterion(hasItem(Items.GHAST_TEAR), conditionsFromItem(Items.GHAST_TEAR))
+                        .offerTo(exporter);
+
+                createShaped(RecipeCategory.MISC, Items.STRAY_SPAWN_EGG)
+                        .pattern("#S#")
+                        .pattern("%N%")
+                        .pattern("GGG")
+                        .input('#', Items.BONE)
+                        .input('S', Items.SKELETON_SKULL)
+                        .input('N', Items.NETHER_STAR)
+                        .input('G', Items.GHAST_TEAR)
+                        .input('%', Items.SNOWBALL)
+                        .criterion(hasItem(Items.GHAST_TEAR), conditionsFromItem(Items.GHAST_TEAR))
+                        .offerTo(exporter);
+
+                createShaped(RecipeCategory.MISC, Items.BOGGED_SPAWN_EGG)
+                        .pattern("#S#")
+                        .pattern("%N%")
+                        .pattern("GGG")
+                        .input('#', Items.BONE)
+                        .input('S', Items.SKELETON_SKULL)
+                        .input('N', Items.NETHER_STAR)
+                        .input('G', Items.GHAST_TEAR)
+                        .input('%', Items.SLIME_BALL)
+                        .criterion(hasItem(Items.GHAST_TEAR), conditionsFromItem(Items.GHAST_TEAR))
+                        .offerTo(exporter);
+
+                createShaped(RecipeCategory.MISC, Items.ZOMBIE_VILLAGER_SPAWN_EGG)
+                        .pattern("#Z#")
+                        .pattern("BNB")
+                        .pattern("GGG")
+                        .input('#', Items.ROTTEN_FLESH)
+                        .input('Z', Items.ZOMBIE_HEAD)
+                        .input('N', Items.NETHER_STAR)
+                        .input('G', Items.GHAST_TEAR)
+                        .input('B', Items.BREAD)
+                        .criterion(hasItem(Items.GHAST_TEAR), conditionsFromItem(Items.GHAST_TEAR))
+                        .offerTo(exporter);
+
+                createShaped(RecipeCategory.MISC, Items.DROWNED_SPAWN_EGG)
+                        .pattern("#Z#")
+                        .pattern("KNK")
+                        .pattern("GGG")
+                        .input('#', Items.ROTTEN_FLESH)
+                        .input('Z', Items.ZOMBIE_HEAD)
+                        .input('N', Items.NETHER_STAR)
+                        .input('G', Items.GHAST_TEAR)
+                        .input('K', Items.KELP)
+                        .criterion(hasItem(Items.GHAST_TEAR), conditionsFromItem(Items.GHAST_TEAR))
+                        .offerTo(exporter);
 
             }
         };

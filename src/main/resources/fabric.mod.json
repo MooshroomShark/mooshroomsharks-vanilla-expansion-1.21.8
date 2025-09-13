@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
 	"id": "msexpansion",
-	"version": "1.0.0-alpha.1.jar",
-	"name": "MooshroomShark's Vanilla Expansion",
+	"version": "1.21.8-1.0.0",
+	"name": "MooshroomShark's Vanilla+ Expansion",
 	"description": "This mod adds structures, nature, and crefting recipes using Vanilla blocks and mobs.",
 	"authors": [
 		"MooshroomShark"
