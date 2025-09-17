@@ -8,7 +8,12 @@ import net.minecraft.world.gen.GenerationStep;
 
 public class ModTreeGeneration {
     public static void generateTrees() {
+
         BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.FOREST),
                 GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.ALTERNATE_OAK_PLACED_KEY);
+
+        BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.FLOWER_FOREST),
+                GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.FLOWER_FOREST_OAK_PLACED_KEY);
+
     }
 }

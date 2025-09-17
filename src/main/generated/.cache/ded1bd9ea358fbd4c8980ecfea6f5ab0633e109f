@@ -1,3 +1,5 @@
 // 1.21.8	-999999999-01-01T00:00:00	MooshroomShark's Vanilla+ Expansion/World Gen
 e756fbbd488e99187000ce2324a1df55157bb87c data/msexpansion/worldgen/configured_feature/alternateoak.json
+b1557505d1780066e336cc9b19d0140dd5d174d1 data/msexpansion/worldgen/configured_feature/flowerforestoak.json
 e2ba7e6b9d537da79ed7fd39f77ca1e423a12549 data/msexpansion/worldgen/placed_feature/alternateoak_placed.json
+a5dba0a90d7f08c4d533da5860d19eb4580dc389 data/msexpansion/worldgen/placed_feature/flowerforestoak_placed.json
